@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+@font-face {
+    font-family: 'Good Times Rg';
+    src: url('../font/GoodTimesRg-Regular.eot');
+    src: url('../font/GoodTimesRg-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/GoodTimesRg-Regular.woff2') format('woff2'),
+        url('../font/GoodTimesRg-Regular.woff') format('woff'),
+        url('../font/GoodTimesRg-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+label{
+    cursor: pointer;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+/*main style*/
+.wrapper{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+
+/*header*/
+.header{
+    background: #2c323e;
+ }
+.contacts{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 151px;
+border-bottom: 1px solid rgba(255, 255, 255, .25);}
+
+.contakt-link{
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+}
+.contakt-link span{
+color: #9f9f9f;
+}
+
+.back_call{
+    color: #ea3565;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: none;
+    border-bottom: 1px dotted #ea3565;
+}
+
+.logo a{
+    text-decoration: none;
+}
+.logo_name{
+    color: #ffffff;
+    font-family: "Good Times Rg";
+    font-size: 48px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 18px;
+    text-align: left;
+}
+.prof{
+ color: #ea3565
+}
+.tagline{
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.online{
+    text-align: center;
+}
+.online_entry{
+    color: #ea3565;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 1px dotted #ea3565;
+    }
+
+.networks{
+    font-size: 0;
+    margin-top: 20px;
+   
+}
+.networks li {
+    display: inline-block;
+    font-size: 9px;
+    border: 1px solid #9f9f9f;
+    background-color: #3d434d;
+ 
+}
+.networks li+li{
+    margin-left: 9px;
+}
+.networks li a{
+background: url('../image/css_sprites.png'), url('../image/css_sprites.png');
+display: block;
+width: 28px;
+height: 28px;
+}
+
+.networks li a{
+    background-position: 0px -241px, 0px -205px;
+}
+.networks li+li a{
+    background-position: -4px -36px, -3px -2px;
+}
+.networks li+li+li a {
+    background-position: -2px -104px, -1px -69px;
+}
+.networks li+li+li+li a {
+    background-position: -1px -172px, 0px -137px;
+}
+
+
+/*slider_photo*/
+.slider_photo{
+   
+
+}
+/*courses*/
+.courses{
+    background: white;
+}
+/*about_us*/
+.about_us{
+    background: white;
+}
+
+/*news*/
+.news{
+    background: white;
+}
+/*footer*/
+.footer{
+    background: #2c323e;
+}
