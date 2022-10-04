@@ -294,9 +294,12 @@ nav{
 }
 .menu li {
     position: relative;
-    border-left: 1px dotted rgb(234, 53, 101, .65);
     padding: 6px 20px;
 }
+.menu li+li{
+border-left: 1px dotted rgb(234, 53, 101, .65);
+}
+
 .menu>li {
     display: inline-block;
 }
