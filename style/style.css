@@ -404,13 +404,13 @@ h1{
     font-size: 38px;
     text-transform: uppercase;
 }
-h3{
+.text_slider1{
     color: #ffffff;
     font-size: 19px;
     text-transform: uppercase;
     padding: 16px 0;
 }
-h4{
+.text_slider2{
     color: #ffffff;
     font-size: 17px;
 }
@@ -506,7 +506,7 @@ h4{
     background: white;
 }
 h2{
-    margin-top: 29px;
+    margin-top: 60px;
    padding-bottom: 10px;
     color: #31353d;
     font-size: 32px;
@@ -524,6 +524,49 @@ h2{
 /*news*/
 .news{
     background: white;
+}
+h3{
+    color: #ea3565;
+    font-size: 14px;
+}
+.calendar{
+    color: #a4a4a5;
+    font-size: 14px;
+    padding: 10px 0;
+    display: flex;
+}
+
+.calenda_icon{
+    width: 16px;
+    height: 16px;
+    background: url('../image/css_sprites.png');
+    background-position: -10px -282px;
+    padding-right: 5px;
+}
+
+.news_text{
+    color: #344046;
+    font-size: 14px;
+    line-height: 16px;
+}
+.detail{
+    text-align: right;
+    padding-top: 9px;
+}
+.detail a{
+    color: #a4a4a5;
+    font-size: 14px;
+}
+.all_news{
+    display: flex;
+    justify-content: space-between;
+    margin: 29px 0 100px 0;
+}
+.news_container{
+    width: 321px; 
+}
+.separator{
+    border-left: 1px dotted #bdbdbf;
 }
 /*footer*/
 .footer{
