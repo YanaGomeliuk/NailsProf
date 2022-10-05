@@ -292,7 +292,8 @@ nav{
     font-size: 0;
     position: relative;
 }
-.menu li {
+.menu li,
+.menu_footer li {
     position: relative;
     padding: 6px 20px;
 }
@@ -300,7 +301,8 @@ nav{
 border-left: 1px dotted rgb(234, 53, 101, .65);
 }
 
-.menu>li {
+.menu>li,
+.menu_footer>li {
     display: inline-block;
 }
 .menu li a{
@@ -319,7 +321,6 @@ border-left: 1px dotted rgb(234, 53, 101, .65);
     height: 0;
     overflow: hidden;
     transition: all 2s ease;
-   
 }
 .about_menu li{
     background-color: #2c323e;
@@ -571,4 +572,34 @@ h3{
 /*footer*/
 .footer{
     background: #2c323e;
+}
+.menu_footer{
+    display: flex;
+    justify-content: center;
+    padding: 13px 0 14px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .25);
+}
+.menu_footer li {
+    border-left: 1px dotted rgb(234, 53, 101, .65);
+}
+.active_main{
+    color: #ea3565;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 0.24px;
+}
+
+.footer_company,
+.footer_learn,
+.footer_info,
+.footer_photo,
+.footer_contact{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 0.24px;
 }
